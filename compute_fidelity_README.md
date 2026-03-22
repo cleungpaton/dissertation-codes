@@ -74,6 +74,6 @@ The upward trend from Level 1 to Level 3 is the problem. F(x) should go down if 
 2. `rescore.py` corrects answer extraction
 3. `extract_features.py` extracts V1-V5 features
 4. **`compute_fidelity.py` computes the composite fidelity score** (you are here)
-5. The fidelity score was abandoned; `h3_regression_corrected.py` replaced it with a logistic regression on accuracy
+5. The fidelity score was abandoned; `h3_regression.py` replaced it with a logistic regression on accuracy
 
 This script is included for completeness. The dissertation discusses its failure in Section 3.1.6 ("Note on the composite fidelity score") and in Section 4.4 ("Methodological reflections").
