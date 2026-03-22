@@ -60,7 +60,3 @@ ollama pull hengwen/DeepSeek-R1-Distill-Qwen-32B:q4_k_m
 ollama pull erwan2/DeepSeek-R1-Distill-Qwen-1.5B
 ollama pull qwen2.5:1.5b
 ```
-
-## Citation
-
-Paton, L.C.L. (2026). *Does Distillation Preserve Mathematical Reasoning? Evaluating Reasoning Fidelity in Compressed Language Models*. MATH3001 Dissertation, University of Leeds. Supervised by Luisa Cutillo.
