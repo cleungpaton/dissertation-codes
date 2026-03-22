@@ -125,9 +125,3 @@ If none of these methods produce a match, the answer is flagged for manual revie
 - The JSONL log file is written incrementally (one line per API call, flushed immediately). If the script crashes or you interrupt it, all completed calls are saved.
 - The teacher model (32B) takes 4-8 minutes per call on an M3 Max MacBook Pro. A full run of 200 calls takes roughly 12-15 hours. Consider running overnight with `caffeinate -i` on macOS to prevent sleep.
 - The script appends to the JSONL file rather than overwriting it. If you re-run, you will get duplicate entries. Delete or rename the existing log file before re-running, or use a different output directory.
-
-## Citation
-
-This code was written for:
-
-Paton, L.C.L. (2026). *Does Distillation Preserve Mathematical Reasoning? Evaluating Reasoning Fidelity in Compressed Language Models*. MATH3001 Dissertation, University of Leeds.
